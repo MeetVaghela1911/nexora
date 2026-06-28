@@ -1,0 +1,91 @@
+# ──────────────────────────────────────────────
+# Miscellaneous
+# ──────────────────────────────────────────────
+*.class
+*.log
+*.pyc
+*.swp
+*.py
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ──────────────────────────────────────────────
+# IDEs & Editors
+# ──────────────────────────────────────────────
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+.agent/
+.continue/
+devtools_options.yaml
+
+# ──────────────────────────────────────────────
+# Flutter / Dart / Pub
+# ──────────────────────────────────────────────
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.metadata
+
+# ──────────────────────────────────────────────
+# Symbolication & Obfuscation
+# ──────────────────────────────────────────────
+app.*.symbols
+app.*.map.json
+
+# ──────────────────────────────────────────────
+# Android build artifacts
+# ──────────────────────────────────────────────
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# ──────────────────────────────────────────────
+# Sensitive / Secret files — NEVER commit
+# ──────────────────────────────────────────────
+**/google-services.json
+**/GoogleService-Info.plist
+*.jks
+*.keystore
+
+# ──────────────────────────────────────────────
+# Non-mobile platform folders (mobile app only)
+# ──────────────────────────────────────────────
+/linux/
+/macos/
+/windows/
+/web/
+
+# ──────────────────────────────────────────────
+# Unrelated sub-projects & junk files
+# ──────────────────────────────────────────────
+zipkart_firebase/
+*.zip
+*.txt
+*.iml
+print_tree.py
+
+# ──────────────────────────────────────────────
+# Scratch / internal docs (not for public repo)
+# ──────────────────────────────────────────────
+DATA_FLOW_ARCHITECTURE.md
+DATA_FLOW_SUMMARY.md
+FIRESTORE_TROUBLESHOOTING.md
+IMPLEMENTATION_SUMMARY.md
+SMART_DATA_LOADING.md
+TESTING_SMART_LOADING.md
+UX_LOADING_IMPROVEMENTS.md
